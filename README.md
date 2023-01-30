@@ -5,7 +5,7 @@ by Alexandra M. Proca, Fernando E. Rosas, Andrea I. Luppi, Daniel Bor, Matthew C
 
 Code and data for https://doi.org/10.48550/arXiv.2210.02996 .
 
-TODO: WRITE DESCRIPTION
+We study the partial information decomposition (PID; https://arxiv.org/abs/1004.2515) of small neural networks in several different settings-- supervised learning (XOR and COPY logic gates), reinforcement learning (AnimalAI), and neuroscience-inspired cognitive tasks (Neurogym). For each experiment, we train ten models, extract their activations during evaluation, and compute PID measures of the activations. We use two different redundancy functions, namely Immi (https://arxiv.org/abs/1411.2832) and Imin (https://arxiv.org/abs/1004.2515). In logic gate and AnimalAI experiments, we discretize activations by binning, while in Neurogym experiments, we compute continuous measures using a Gaussian copula. We also perform a lesioning experiment on logic gate networks by removing the maximal/minimal synergistic neuron in each layer iteratively and evaluating performance.
 
 
 ## Setup
@@ -14,7 +14,7 @@ To set up the conda environment, run:
 conda env create -f environment.yml
 conda activate environment
 ```
-To run AnimalAI experiments, see Animal-AI 3 v2.2.3 for environment installation: https://github.com/mdcrosby/animal-ai (download the AAI repository in the current folder for full functionality).<br/>
+To run AnimalAI experiments, see Animal-AI 3 v2.2.3 for environment installation: https://github.com/mdcrosby/animal-ai (download the AAI repository and environment in the current folder for full functionality).<br/>
 <b>Note:</b> v2.2.3 is an earlier version of the environment- it may or may not be compatable with newer versions.
 
 
