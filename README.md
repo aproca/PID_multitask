@@ -5,20 +5,25 @@ by Alexandra M. Proca, Fernando E. Rosas, Andrea I. Luppi, Daniel Bor, Matthew C
 
 Code and data for https://doi.org/10.48550/arXiv.2210.02996 .
 
-### Setup
+TODO: WRITE DESCRIPTION
+
+## Setup
 TODO
 
-### Code- TODO
+## Code- TODO
 
-To train, test, and compute PID measures for experiments in the paper, run this command:
+To train, test, and compute PID measures for experiments in the paper, run the following commands:
 ```train
 python3 logic_script.py --config <config to run> 
 python3 animalai_script.py --config <config to run>
 python3 neurogym_script.py --config <config to run>
 ```
 
-### Data
-Trained models, stored activations, and computed PID measures used in the paper can be found in trained_models, activations, and PID folders, respectively.
+## Data
+Trained models, stored activations, and computed PID measures used in the paper can be found in ```trained_models```, ```activations```, and ```PID``` folders, respectively.
+
+## Figures
+Figures from the main body of the paper are plotted in ```figures.ipynb```
 
 
 ## Citation
