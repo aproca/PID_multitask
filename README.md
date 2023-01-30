@@ -1,7 +1,6 @@
 # *Synergistic information supports modality integration and flexible learning in neural networks solving multiple tasks* 
 
-by <b>Alexandra M. Proca,</b><br/>
-Fernando E. Rosas, Andrea I. Luppi, Daniel Bor, Matthew Crosby*, Pedro A.M. Mediano*<br/>
+by Alexandra M. Proca, Fernando E. Rosas, Andrea I. Luppi, Daniel Bor, Matthew Crosby*, Pedro A.M. Mediano*<br/>
 (* – joint senior authorship)
 
 Code and data for https://doi.org/10.48550/arXiv.2210.02996 .
