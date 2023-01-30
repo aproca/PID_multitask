@@ -1,16 +1,18 @@
-# *Synergistic information supports modality integration and flexible learning in neural networks solving multiple tasks* 
+# Synergistic information supports modality integration and flexible learning in neural networks solving multiple tasks 
 
 by Alexandra M. Proca, Fernando E. Rosas, Andrea I. Luppi, Daniel Bor, Matthew Crosby*, Pedro A.M. Mediano*<br/>
 (* – joint senior authorship)
 
 Code and data for https://doi.org/10.48550/arXiv.2210.02996 .
 
+### Setup
+TODO
 
-### Code
+### Code- TODO
 
 To train, test, and compute PID measures for experiments in the paper, run this command:
 ```train
-python3 logic_script.py --config <config to run>
+python3 logic_script.py --config <config to run> 
 python3 animalai_script.py --config <config to run>
 python3 neurogym_script.py --config <config to run>
 ```
