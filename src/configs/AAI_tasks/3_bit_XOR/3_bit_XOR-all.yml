@@ -1,0 +1,1158 @@
+!ArenaConfig
+arenas:
+  0: !Arena # WWW-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+    # - !Item # back wall
+    #   name: Wall
+    #   rotations: [0]
+    #   positions:
+    #   - !Vector3 {x: 20, y: 0, z: 1}
+    #   colors:
+    #   - !RGB {r: 153, g: 153, b: 153}
+    #   sizes:
+    #   - !Vector3 {x: 5, y: 10, z: 1}
+  1: !Arena # WWW-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+    # - !Item # back wall
+    #   name: Wall
+    #   rotations: [0]
+    #   positions:
+    #   - !Vector3 {x: 20, y: 0, z: 1}
+    #   colors:
+    #   - !RGB {r: 153, g: 153, b: 153}
+    #   sizes:
+    #   - !Vector3 {x: 5, y: 10, z: 1}
+  2: !Arena # WWC-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  3: !Arena # WWC-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  4: !Arena # WCW-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  5: !Arena # WCW-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  6: !Arena # CWW-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  7: !Arena # CWW-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  8: !Arena # WCC-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  9: !Arena # WCC-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  10: !Arena # CWC-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  11: !Arena # CWC-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward wall
+      name: Wall
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  12: !Arena # CCW-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  13: !Arena # CCW-F
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # forward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 23}
+      - !Vector3 {x: 20, y: 0, z: 27}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # backward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 9.75}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  14: !Arena # CCC-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+  15: !Arena # CCC-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Cardbox1 # left cardbox
+      positions:
+      - !Vector3 {x: 5, y: 0, z: 5}      
+      - !Vector3 {x: 13.75, y: 0, z: 5}
+      - !Vector3 {x: 5, y: 0, z: 15}      
+      - !Vector3 {x: 13.75, y: 0, z: 15}
+      - !Vector3 {x: 5, y: 0, z: 25}      
+      - !Vector3 {x: 13.75, y: 0, z: 25}
+      - !Vector3 {x: 5, y: 0, z: 35}      
+      - !Vector3 {x: 13.75, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: Cardbox1 # right cardbox
+      positions:
+      - !Vector3 {x: 35, y: 0, z: 5}      
+      - !Vector3 {x: 26.25, y: 0, z: 5}
+      - !Vector3 {x: 35, y: 0, z: 15}      
+      - !Vector3 {x: 26.25, y: 0, z: 15}
+      - !Vector3 {x: 35, y: 0, z: 25}      
+      - !Vector3 {x: 26.25, y: 0, z: 25}
+      - !Vector3 {x: 35, y: 0, z: 35}      
+      - !Vector3 {x: 26.25, y: 0, z: 35}
+      rotations: [0,0,0,0,0,0,0,0]
+      sizes:
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+      - !Vector3 {x: 10, y: 10, z: 10}
+      - !Vector3 {x: 7.5, y: 10, z: 10}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
+
+  

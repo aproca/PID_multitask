@@ -1,0 +1,60 @@
+!ArenaConfig
+arenas:
+  0: !Arena # WCW-B
+    pass_mark: 0
+    t: 250
+    items:
+    - !Item
+      name: Agent
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 5, z: 20}
+    - !Item
+      name: Wall # platform
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 20}
+      rotations: [0]
+      colors:
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 5, y: 5, z: 1}
+    - !Item
+      name: Wall # left wall
+      positions:
+      - !Vector3 {x: 8.75, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: Wall # right wall
+      positions:
+      - !Vector3 {x: 31.25, y: 0, z: 20}
+      rotations: [0]
+      colors: 
+      - !RGB {r: 153, g: 153, b: 153}
+      sizes:
+      - !Vector3 {x: 17.5, y: 10, z: 40}
+    - !Item
+      name: GoodGoal # backward goal
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 17}
+      - !Vector3 {x: 20, y: 0, z: 14}
+      sizes:
+      - !Vector3 {x: 4, y: 4, z: 4}
+      - !Vector3 {x: 4, y: 4, z: 4}
+    - !Item
+      name: DeathZone # forward death
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 30.25}
+      rotations: [0]
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 19.5}
+    - !Item # forward cardbox
+      name: Cardbox1
+      rotations: [0]
+      positions:
+      - !Vector3 {x: 20, y: 0, z: 39}
+      sizes:
+      - !Vector3 {x: 5, y: 10, z: 1}
