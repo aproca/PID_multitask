@@ -28,7 +28,7 @@ python3 logic_script.py --dataset=XOR
 python3 logic_script.py --dataset=COPY
 ```
 
-For Animal AI experiments run:
+For AnimalAI experiments run:
 ```train
 python3 animalai_script.py --curriculum=<curriculum name to run>
 ```
