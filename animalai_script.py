@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # args.activation_out_dir = 'activations/animalai/'
     # args.PID_out_dir = 'PID/animalai/'
     # args.log_out_dir = 'logs/animalai/'
-    # args.base_folder = args.curriculum['name'] + '/'
+    args.base_folder = args.curriculum['name'] + '/'
 
     args.actor_layer_size = [args.actor_layer_size, args.actor_layer_size]
     args.critic_layer_size = [args.critic_layer_size, args.critic_layer_size]

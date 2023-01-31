@@ -20,13 +20,13 @@ def get_parser():
     parser = argparse.ArgumentParser(description='neurogym')
 
     # General
-    parser.add_argument('--model_out_dir', type=str, default="out_dir_default",
+    parser.add_argument('--model_out_dir', type=str, default='trained_models/neurogym/' ,
                         help='Path to the output folder for saving the models.')
-    parser.add_argument('--activation_out_dir', type=str, default="out_dir_default",
+    parser.add_argument('--activation_out_dir', type=str, default='activations/neurogym/',
                         help='Path to the output folder for saving activations.')
-    parser.add_argument('--PID_out_dir', type=str, default="out_dir_default",
+    parser.add_argument('--PID_out_dir', type=str, default='PID/neurogym/',
                         help='Path to the output folder for PID measures.')
-    parser.add_argument('--log_out_dir', type=str, default="out_dir_default",
+    parser.add_argument('--log_out_dir', type=str, default='logs/neurogym/',
                         help='Path to the output folder for logging.')
     parser.add_argument('--ckpt_folder', type=str, default='')
     parser.add_argument('--seed', type=int, default=0,
