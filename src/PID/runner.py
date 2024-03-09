@@ -4,14 +4,17 @@ import pandas as pd
 from src.PID import extract, k_order, full_order, batch
 from src.PID import PID_utils
 
-def get_performance_info(model_PID, activations):
+def get_performance_info(model_PID, activations, args):
     model_PID['avg_reward'] = activations['avg_reward']
     model_PID['accuracy'] = activations['accuracy']
+    if args.discrete_PID:
+        model_PID['IQR_binning'] = args.IQR_bins
+        model_PID['layer_max_bin'] = args.layer_max_bin
     return model_PID
 
 def run_model(model_PID, model_df, args):
     activations = extract.get_activations(model_df, args)
-    model_PID = get_performance_info(model_PID, activations)
+    model_PID = get_performance_info(model_PID, activations, args)
     if args.compute_PID:
         if args.k_order > 0:
             print('Computing k-order')

@@ -1,8 +1,25 @@
 import numpy as np
+import scipy
 
 def get_bins(max_bin, num_bins):
     # generates bins for discretizing network activations
     return np.linspace(0, max_bin, num_bins)
+
+def get_IQR_bins(layer, num_bins):
+    IQR = scipy.stats.iqr(layer)
+    maximum = np.quantile(layer, 0.75) + 1.5*IQR
+    minimum = np.quantile(layer, 0.25) - 1.5*IQR
+    if minimum < 0:
+        layer_range = layer[np.where(np.logical_and(layer > 0, layer<=maximum))]  
+        bins = [0.0]
+        for i in range(1, num_bins):
+            bins.append(np.quantile(layer_range, i/(num_bins-1)))
+    else:
+        layer_range = layer[np.where(np.logical_and(layer >= minimum, layer<=maximum))]  
+        bins = list()
+        for i in range(1, num_bins+1):
+            bins.append(np.quantile(layer_range, i/(num_bins)))
+    return bins
 
 def discretize_AAI_input(activations, args): 
     d_input = []
@@ -41,6 +58,8 @@ def discretize_FF_layers(activations, args):
     for layer in activations['layers']:
         d_layer = []
         for i in range(len(layer)):
+            if args.IQR_bins:
+                layer_bins = get_IQR_bins(layer[i], args.layer_num_bins)
             d_activation = np.digitize(layer[i], layer_bins, right=True).flatten()
             d_layer.append([str(j) for j in d_activation])
         d_layers.append(np.array(d_layer))

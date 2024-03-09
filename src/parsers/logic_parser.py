@@ -63,6 +63,8 @@ def get_parser():
                         help='Maximum bin size for layerwise discretization')
     parser.add_argument('--layer_num_bins', type=int, default=3,
                         help='Maximum bin size for layerwise discretization')
+    parser.add_argument('--IQR_bins', type=str2bool, default=False,
+                        help='Whether to bin based on IQR')
     parser.add_argument('--k_order', type=int, default=2,
                         help='K-order to compute PID')
     parser.add_argument('--full_order', type=str2bool, default=True,
