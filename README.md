@@ -24,8 +24,8 @@ Curriculums for AnimalAI and Neurogym experiments can be found in ```src/configs
 
 For logic gate experiments run:
 ```train
-python3 logic_script.py --dataset=XOR
-python3 logic_script.py --dataset=COPY
+python3 logic_script.py --dataset=XOR --model_out_dir=trained_models/logic/XOR/ --activation_out_dir=activations/logic/XOR/ --PID_out_dir=PID/logic/XOR/ --log_out_dir=logs/logic/XOR/
+python3 logic_script.py --dataset=COPY --model_out_dir=trained_models/logic/COPY/ --activation_out_dir=activations/logic/COPY/ --PID_out_dir=PID/logic/COPY/ --log_out_dir=logs/logic/COPY/
 ```
 
 For AnimalAI experiments run:
