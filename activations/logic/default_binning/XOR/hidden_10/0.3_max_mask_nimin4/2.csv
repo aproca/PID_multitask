@@ -1,0 +1,18 @@
+,0,1
+0,logic,"[configuration(episode=1, buffer=[transition(observation=array([0, 0]), activation=[array([ 0.        , -0.        , -0.        ,  0.        ,  0.        ,
+        0.18170632,  0.        ,  0.        ,  0.        , -0.        ],
+      dtype=float32), array([ 0.        ,  0.        , -0.        , -0.        ,  0.296922  ,
+        0.50622255,  0.05562973,  0.        ,  0.4242674 ,  0.        ],
+      dtype=float32), array([ 0.27120972, -0.09115142], dtype=float32)], reward=1), transition(observation=array([0, 1]), activation=[array([ 0.        , -0.        ,  0.        , -0.        ,  0.        ,
+        0.56350917,  0.68168366,  0.        ,  0.        ,  0.        ],
+      dtype=float32), array([ 0.        , -0.        , -0.        , -0.        ,  0.02244031,
+        0.14656529,  0.        ,  0.        ,  0.04889977, -0.        ],
+      dtype=float32), array([-0.6821405,  0.710177 ], dtype=float32)], reward=1), transition(observation=array([1, 0]), activation=[array([ 0.       , -0.       ,  0.       , -0.       ,  0.9105865,
+        0.       ,  0.       ,  0.       ,  0.       , -0.       ],
+      dtype=float32), array([ 0.        , -0.        , -0.        , -0.        ,  0.        ,
+        0.14453745,  1.5652896 ,  0.        ,  0.        ,  0.        ],
+      dtype=float32), array([-2.752532 ,  1.9411393], dtype=float32)], reward=1), transition(observation=array([1, 1]), activation=[array([ 0.        ,  0.        ,  0.        , -0.        ,  0.        ,
+        0.37891248,  0.        ,  0.        ,  0.        , -0.        ],
+      dtype=float32), array([ 0.        ,  0.        , -0.        , -0.        ,  0.35005602,
+        0.5051805 ,  0.04724952,  0.        ,  0.45725316, -0.        ],
+      dtype=float32), array([ 0.35159314, -0.15292257], dtype=float32)], reward=1)], success=4)]"
